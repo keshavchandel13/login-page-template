@@ -29,7 +29,7 @@ export default function Login() {
   };
 
   return (
-    <div className="h-screen w-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-lvh max-w-full flex items-center justify-center bg-gray-100">
       <div className="border-2 rounded-lg shadow-lg h-96 w-4/5 max-w-4xl bg-white flex flex-row font-sans" style={{ borderColor: "#32a59d" }}>
         {/* Left Box */}
         <div className="flex flex-col p-6 items-center justify-center gap-y-8 w-full">
